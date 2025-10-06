@@ -1,0 +1,13 @@
+/* Prevent text selection */
+html, body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Smooth transitions */
+input, button {
+  transition: all 0.2s ease-in-out;
+}
+html,body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}input,button{transition:all .2s ease-in-out}#menuBtn{transform:translateY(0)}
